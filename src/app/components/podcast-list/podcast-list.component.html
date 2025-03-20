@@ -1,1 +1,12 @@
-<p>podcast-list works!</p>
+<div>
+    <img />
+    <p>Podcast</p>
+    <h1>{{playlist.nome}}</h1>
+    <ul>
+        <li *ngFor="let playlist of playlist.audios">
+            <span>{{playlist.codigo}}</span>
+            <span>{{playlist.nome}}</span>
+            <span>{{playlist.duracao}}</span>
+        </li>
+    </ul>
+</div>
