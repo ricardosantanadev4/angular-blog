@@ -1,0 +1,38 @@
+article {
+    display: flex;
+    margin: 30px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 4px;
+
+    .article-content {
+        max-width: 298px;
+
+        .article-sumary {
+            padding: 18px 0px 10px 0px;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+
+            button {
+                padding: 4px 8px;
+                border-radius: 16px;
+                background-color: #302E2E;
+                border-color: transparent;
+
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: #ABABAB;
+                }
+            }
+        }
+
+    }
+
+    img {
+        flex-grow: 1;
+    }
+}
