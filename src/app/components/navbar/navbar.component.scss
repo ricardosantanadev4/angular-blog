@@ -1,9 +1,9 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    height: 64px;
     padding: 20px 30px;
-    background-color: #2E2B2C;
+    height: 64px;
+    // background-color: #2E2B2C;
     align-items: center;
     caret-color: transparent;
 
@@ -12,28 +12,24 @@
     }
 
     .logo {
-        color: #7D8182;
-        font-weight: bold;
         font-size: 15px;
+        font-weight: bold;
+        color: #7D8182;
         font-family: 'Archivo Black', sans-serif;
     }
 
     ul {
         display: flex;
+        gap: 42px;
         list-style: none;
 
-        li {
-            margin-left: 20px;
+        a {
+            font-weight: 600;
+            color: #EAEAEA;
 
-            a {
-                color: #EAEAEA;
-                font-weight: 600;
-
-                &:hover {
-                    color: #FFFFFF;
-                }
+            &:hover {
+                color: #FFFFFF;
             }
-
         }
     }
 }
