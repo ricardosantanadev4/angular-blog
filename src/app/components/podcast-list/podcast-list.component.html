@@ -5,10 +5,10 @@
         <h1>{{playlist.nome}}</h1>
         <ul>
             <li *ngFor="let playlist of playlist.audios">
-                <span>{{playlist.codigo}}</span>
+                <span class="track-cod">#0{{playlist.codigo}}</span>
                 <span class="track-name">{{playlist.nome}}</span>
                 <span class="play-button">▶️</span>
-                <span>{{playlist.duracao}}</span>
+                <span class="track-duration">{{playlist.duracao}}</span>
             </li>
         </ul>
     </div>

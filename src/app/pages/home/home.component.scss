@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: stretch;
+    padding: 20px 30px 50px 30px;
+    width: 100%;
+    background-color: #EAEAEA;
+
+    .podcast-container {
+        width: 57%;
+    }
+
+    .call-to-actions-container {
+        width: 43%;
+    }
+}

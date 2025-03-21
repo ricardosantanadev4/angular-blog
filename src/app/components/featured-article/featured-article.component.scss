@@ -2,14 +2,32 @@ article {
     display: flex;
     margin: 30px;
     padding: 24px;
-    background-color: #ffffff;
+    background-color: #EAEAEA;
     border-radius: 4px;
+    caret-color: transparent;
 
     .article-content {
         max-width: 24%;
 
+        time {
+            font-size: 12px;
+            font-weight: bold;
+            color: #C5C7C6;
+        }
+
+        h1 {
+            color: #282828;
+        }
+
+        .article-duration {
+            font-size: 12px;
+            font-weight: bold;
+            color: #C5C7C6;
+        }
+
         .article-sumary {
             padding: 18px 0px 10px 0px;
+            color: #4E4E4E;
         }
 
         nav {
@@ -19,13 +37,13 @@ article {
             button {
                 padding: 4px 8px;
                 border-radius: 16px;
-                background-color: #302E2E;
+                background-color: #292929;
                 border-color: transparent;
 
                 a {
                     text-decoration: none;
                     font-weight: bold;
-                    color: #ABABAB;
+                    color: #A3A3A3;
                 }
             }
         }
