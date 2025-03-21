@@ -1,12 +1,15 @@
-<div>
-    <img />
-    <p>Podcast</p>
-    <h1>{{playlist.nome}}</h1>
-    <ul>
-        <li *ngFor="let playlist of playlist.audios">
-            <span>{{playlist.codigo}}</span>
-            <span>{{playlist.nome}}</span>
-            <span>{{playlist.duracao}}</span>
-        </li>
-    </ul>
+<div class="podcast-container">
+    <img src="/assets/podcast-img.png" />
+    <div class="podcast-content">
+        <p>Podcast</p>
+        <h1>{{playlist.nome}}</h1>
+        <ul>
+            <li *ngFor="let playlist of playlist.audios">
+                <span>{{playlist.codigo}}</span>
+                <span class="track-name">{{playlist.nome}}</span>
+                <span class="play-button">▶️</span>
+                <span>{{playlist.duracao}}</span>
+            </li>
+        </ul>
+    </div>
 </div>
