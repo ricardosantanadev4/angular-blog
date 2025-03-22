@@ -3,7 +3,7 @@
 Este é um projeto desenvolvido como parte do curso na plataforma DIO sobre construção de aplicações com Angular. O objetivo foi criar um blog com base em um design do Dribbble, colocando em prática os conhecimentos adquiridos ao longo do curso.
 
 ## 📸 Demonstração
-![https://github.com/ricardosantanadev4/angular-blog/blob/main/blog-angular-layout-Dribbble-ezgif.com-video-to-gif-converter.gif](link-da-imagem)
+![https://github.com/ricardosantanadev4/angular-blog/blob/main/blog-angular-layout-Dribbble-ezgif.com-video-to-gif-converter.gif]
 
 ## 🚀 Tecnologias Utilizadas
 - Angular 18
