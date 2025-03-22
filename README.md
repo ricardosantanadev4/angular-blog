@@ -27,7 +27,7 @@ Antes de começar, você precisará ter instalado:
 ### ▶️ Rodando o projeto localmente
 ```bash
 # Clone este repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/ricardosantanadev4/angular-blog.git
 
 # Acesse a pasta do projeto
 cd nome-do-projeto
