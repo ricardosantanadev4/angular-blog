@@ -9,8 +9,6 @@ Este é um projeto desenvolvido como parte do curso na plataforma DIO sobre cons
 - Angular 18
 - TypeScript
 - SCSS
-- Bootstrap/Tailwind (caso tenha usado)
-- API Fake (caso tenha utilizado JSON Server ou outro backend)
 
 ## 🔧 Funcionalidades
 - Listagem de posts do blog
